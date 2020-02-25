@@ -1,0 +1,320 @@
+*{	margin: 0px;
+	padding: 0px;
+}
+
+
+
+#container{
+	border-radius: 15px;
+	border-style: solid;
+	color: blue;
+	height: 740px;
+	width: 700px;
+	margin: auto;
+}
+
+#header{
+	border-style: solid;
+	height: 100px;
+	width: 700px;
+	color: red;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	background:gray;
+}
+
+#banco{
+	display: block;
+	margin: auto;
+	width:300px;
+	height:100px;
+	float: left;
+}
+
+#logan{
+	font: arial;
+	font-size: 20px;
+	color: black;
+	float: left;
+	text-align: center;
+}
+
+#menu{
+	background-color: #FFA21C;
+	font: arial;
+	font-size: 20px;
+	margin: auto;
+	height: 30px;
+	text-align: center;
+}
+
+a{
+	margin-right: 20px;
+}
+
+
+#fila1{
+	margin: auto;
+	margin-top: 10px;
+	height: 250px;
+	width: 700px
+	border: 3px solid green;
+
+
+}
+
+#izqsup{
+	margin: auto;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	height: 250px;
+	width: 230px;
+	background: gray;
+	float: left;
+	margin-right:10px;
+	
+}
+
+#formulario{
+	font:15px arial;
+	color: black;
+	margin-left: 10px;
+ }
+
+input{
+	width: 98%;
+	margin-bottom: 20px;
+
+}
+
+#tituloizq{
+	background: black;
+	border: hidden;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	width: 230px; 
+	height: 50px;
+	float: left;
+
+}
+
+
+
+
+
+#censup{
+	margin: auto;
+	border-top-left-radius: 15px;
+	height: 250px;
+	width: 225px;
+	background: gray;
+	float: left;	
+
+	
+}
+
+#tarjeta{
+	display: block;
+	margin: auto;
+	height: 100px;
+	align-items: center;
+	margin-top: 5px; 
+
+}
+
+#titulocen{
+	background: black;
+	border: hidden;
+	border-top-left-radius:15px;
+	width: 225px; 
+	height: 50px;
+	float: left;
+
+}
+
+
+
+#dersup{
+	margin: auto;
+	border-top-right-radius: 15px;
+	height: 250px;
+	width: 225px;
+	background: gray;
+	float: right;
+	margin-left: 10px;
+	
+
+}
+
+#tituloder{
+	background: black;
+	border: hidden;
+	border-top-right-radius: 15px;
+	width: 225px; 
+	height: 50px;
+	float: left;
+}
+
+.text{
+	font-size: 20px;
+	color: white;
+	font: arial;
+	text-align: center;
+}
+	
+.text1{
+	font-size: 17px;
+	color: white;
+	font: arial;
+	text-align: left;
+
+}
+
+#ct1{
+	border: 0px solid green;
+	width: 200px; 
+	height: 90px;
+	margin: auto;
+}
+
+#libro{
+	display: block;
+	margin: auto;
+	width: 120px;
+	height:120px ;
+
+}
+
+#ct2{
+	border: 0px solid green;
+	width: 200px; 
+	height: 90px;
+	margin: auto;
+
+}
+
+#fila2{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#izqinf{
+	margin: auto;
+	height: 250px;
+	width: 230px;
+	background: black;
+	float: left;
+	margin-right:10px;
+	
+}
+
+#cl1{
+	border: 1px solid black;
+	width: 200px;
+	height:249px;
+	margin-left: 10px;
+	color: orange;
+	
+}
+
+.text3{
+	font-size: 25px;
+	color: gray;
+	font: arial;
+	margin: auto;
+}
+
+.text4{
+	font-size: 25px;
+	color: orange;
+	font: arial;
+	margin: auto;
+}
+
+
+#list1{
+	list-style: none;
+	font-size: 20px;
+}
+
+
+#ceninf{
+	margin: auto;
+	border-top-left-radius: 15px;
+	height: 250px;
+	width: 225px;
+	background: gray;
+	float: left;	
+	border-bottom-left-radius: 15px;
+
+	
+}
+
+#auto{
+	display: block;
+	margin: auto;
+	height: 100px;
+	align-items: center;
+	margin-top: 5px; 
+
+}
+
+#derinf{
+	margin: auto;
+	border-top-right-radius: 15px;
+	height: 250px;
+	width: 225px;
+	background: gray;
+	float: right;
+	margin-left: 10px;
+	border-bottom-right-radius: 15px; 
+	
+
+}
+
+#titucen{
+	background: black;
+	border: hidden;
+	border-top-left-radius:15px;
+	width: 225px; 
+	height: 50px;
+	float: left;
+
+}
+
+
+
+#tituder{
+	background: black;
+	border: hidden;
+	border-top-right-radius: 15px;
+	width: 225px; 
+	height: 50px;
+	float: left;
+}
+
+
+#hipoteca{
+	display: block;
+	margin: auto;
+	width: 130px;
+	height:120px ;
+
+}
+
+
+#foot{
+	margin-top: 10px; 
+	float: left;
+	border:1px solid green;
+	height: 70px;
+	width: 700px;
+	background: black;
+	font-size: 20px;
+	font:arial;
+	text-align: center;
+	color: white;
+	border-bottom-right-radius:15px;
+	border-bottom-left-radius:15px;
+}
+
